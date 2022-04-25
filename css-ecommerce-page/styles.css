@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", Geneva, Tahoma, sans-serif;
+}
+
+.new-arrivals {
+  margin-top: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.col {
+  flex-basis: 20%;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+img {
+  max-width: 100%;
+}
+
+.price {
+  margin-top: 0;
+}
+
+.price span {
+  background-color: #fef1e6;
+}
+
+.product .product span,
+.price del {
+  color: lightgray;
+}
